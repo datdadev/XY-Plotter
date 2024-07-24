@@ -1,0 +1,12 @@
+../grbl/stepper.c:183:6:st_deenergize	8	static
+../grbl/stepper.c:193:6:st_wake_up	8	static
+../grbl/stepper.c:203:15:st_go_idle	8	static
+../grbl/stepper.c:274:15:stepper_driver_interrupt_handler	8	static
+../grbl/stepper.c:535:6:st_reset	8	static
+../grbl/stepper.c:585:6:st_rpm_changed	0	static
+../grbl/stepper.c:591:6:st_update_plan_block_parameters	0	static
+../grbl/stepper.c:601:6:st_parking_setup_buffer	12	static
+../grbl/stepper.c:619:6:st_parking_restore_buffer	12	static
+../grbl/stepper.c:650:6:st_prep_buffer	32	static
+../grbl/stepper.c:1096:7:st_get_realtime_rate	8	static
+../grbl/stepper.c:1107:13:st_get_offset_id	8	static

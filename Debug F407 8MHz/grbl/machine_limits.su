@@ -1,0 +1,17 @@
+../grbl/machine_limits.c:52:32:homing_signals_select	8	static
+../grbl/machine_limits.c:595:14:get_homing_rate	0	static
+../grbl/machine_limits.c:601:13:check_travel_limits	8	static
+../grbl/machine_limits.c:714:13:clip_3d_target	0	static
+../grbl/machine_limits.c:752:13:apply_jog_limits	8	static
+../grbl/machine_limits.c:170:13:limits_pull_off	80	static
+../grbl/machine_limits.c:617:13:check_arc_travel_limits	96	static
+../grbl/machine_limits.c:42:25:limit_signals_merge	8	static
+../grbl/machine_limits.c:82:15:limit_interrupt_handler	16	static
+../grbl/machine_limits.c:114:6:limits_set_work_envelope	0	static
+../grbl/machine_limits.c:144:6:limits_set_machine_positions	24	static
+../grbl/machine_limits.c:260:13:homing_cycle	144	static
+../grbl/machine_limits.c:515:15:limits_go_home	32	static
+../grbl/machine_limits.c:548:6:limits_soft_check	8	static
+../grbl/machine_limits.c:574:6:limits_set_homing_axes	0	static
+../grbl/machine_limits.c:588:6:limits_homing_required	0	static
+../grbl/machine_limits.c:782:6:limits_init	0	static

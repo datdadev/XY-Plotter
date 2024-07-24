@@ -1,0 +1,16 @@
+../grbl/canbus.c:93:22:canbus_queue_rx	32	static
+../grbl/canbus.c:138:17:canbus_get_baud	0	static
+../grbl/canbus.c:151:13:canbus_settings_restore	8	static
+../grbl/canbus.c:66:28:can_start	0	static
+../grbl/canbus.c:123:13:canbus_start	8	static
+../grbl/canbus.c:158:13:canbus_settings_load	8	static
+../grbl/canbus.c:71:28:can_stop	0	static
+../grbl/canbus.c:76:28:can_set_baud	0	static
+../grbl/canbus.c:131:22:canbus_set_baud	8	static
+../grbl/canbus.c:81:28:can_put	16	static
+../grbl/canbus.c:109:13:canbus_poll	16	static
+../grbl/canbus.c:86:28:can_add_filter	0	static
+../grbl/canbus.c:175:6:canbus_enabled	0	static
+../grbl/canbus.c:180:6:canbus_queue_tx	32	static
+../grbl/canbus.c:194:6:canbus_add_filter	8	static
+../grbl/canbus.c:199:6:canbus_init	8	static

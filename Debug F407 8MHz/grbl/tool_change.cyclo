@@ -1,0 +1,15 @@
+../grbl/tool_change.c:74:13:change_completed	6
+../grbl/tool_change.c:161:13:execute_warning	1
+../grbl/tool_change.c:295:22:on_toolchange_ack	1
+../grbl/tool_change.c:64:13:on_probe_completed	3
+../grbl/tool_change.c:102:13:reset	4
+../grbl/tool_change.c:304:13:tool_select	2
+../grbl/tool_change.c:53:13:tc_on_homing_complete	3
+../grbl/tool_change.c:273:22:trap_stream_cycle_start	6
+../grbl/tool_change.c:255:22:trap_control_cycle_start	5
+../grbl/tool_change.c:122:13:restore	7
+../grbl/tool_change.c:168:13:execute_restore	2
+../grbl/tool_change.c:185:13:execute_probe	11
+../grbl/tool_change.c:312:22:tool_change	14
+../grbl/tool_change.c:424:6:tc_init	8
+../grbl/tool_change.c:464:15:tc_probe_workpiece	12

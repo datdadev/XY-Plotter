@@ -42,7 +42,7 @@
 //#define BOARD_STM32F401_UNI       // F401 CNC board
 //#define BOARD_MKS_ROBIN_NANO_30   // F407 based 3D Printer board - untested!
 //#define BOARD_MKS_EAGLE           // F407 based 3D Printer board
-//#define BOARD_MY_MACHINE          // Add my_machine_map.h before enabling this!
+#define BOARD_MY_MACHINE          // Add my_machine_map.h before enabling this!
 
 // WARNING: BOARD_BTT_SKR_20 may fry your Trinamic drivers due to bad hardware design.
 //          The risk goes away if Q1 (HY1904C2) is shorted between source (S) and drain (D).
@@ -61,7 +61,7 @@
 // Uncomment to enable.
 
 #if IS_NUCLEO_DEVKIT != 64 && !defined(USB_SERIAL_CDC) // The Nucleo boards has an off-chip UART to USB interface.
-#define USB_SERIAL_CDC         1 // Serial communication via native USB.
+//#define USB_SERIAL_CDC         1 // Serial communication via native USB.
 #endif
 //#define BLUETOOTH_ENABLE     2 // Set to 2 for HC-05 module. Requires and claims one auxillary input pin.
 // Spindle selection:
@@ -70,7 +70,7 @@
 // If none are specified the default PWM spindle is instantiated.
 // Spindle definitions can be found in grbl/spindle_control.h.
 // More here https://github.com/grblHAL/Plugins_spindle
-//#define SPINDLE0_ENABLE      SPINDLE_ALL
+#define SPINDLE0_ENABLE SPINDLE_NONE
 //#define SPINDLE0_ENABLE      SPINDLE_PWM0_NODIR
 //#define SPINDLE2_ENABLE      SPINDLE_NONE
 //#define SPINDLE3_ENABLE      SPINDLE_NONE

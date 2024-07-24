@@ -1,0 +1,5 @@
+../Src/pwm.c:104:6:pwm_is_available	10
+../Src/pwm.c:124:21:pwm_claim	10
+../Src/pwm.c:147:6:pwm_enable	7
+../Src/pwm.c:181:6:pwm_config	3
+../Src/pwm.c:216:10:pwm_get_clock_hz	6

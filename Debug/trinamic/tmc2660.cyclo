@@ -1,0 +1,13 @@
+../trinamic/tmc2660.c:127:13:_set_rms_current	2
+../trinamic/tmc2660.c:122:30:TMC2660_GetConfigDefaults	1
+../trinamic/tmc2660.c:139:6:TMC2660_SetDefaults	2
+../trinamic/tmc2660.c:170:15:cs2rms_2660	2
+../trinamic/tmc2660.c:180:10:TMC2660_GetCurrent	1
+../trinamic/tmc2660.c:186:6:TMC2660_SetCurrent	1
+../trinamic/tmc2660.c:198:6:TMC2660_MicrostepsIsValid	1
+../trinamic/tmc2660.c:203:6:TMC2660_SetMicrosteps	1
+../trinamic/tmc2660.c:211:6:TMC2660_SetConstantOffTimeChopper	1
+../trinamic/tmc2660.c:240:25:TMC2660_WriteRegister	1
+../trinamic/tmc2660.c:250:25:TMC2660_ReadRegister	3
+../trinamic/tmc2660.c:154:6:TMC2660_Init	3
+../trinamic/tmc2660.c:273:21:TMC2660_GetRegPtr	4

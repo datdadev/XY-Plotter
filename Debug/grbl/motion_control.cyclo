@@ -1,0 +1,13 @@
+../grbl/motion_control.c:412:21:eval_bezier	1
+../grbl/motion_control.c:78:6:mc_line	11
+../grbl/motion_control.c:209:6:mc_arc	15
+../grbl/motion_control.c:472:6:mc_cubic_b_spline	10
+../grbl/motion_control.c:660:6:mc_thread	26
+../grbl/motion_control.c:778:15:mc_jog_execute	7
+../grbl/motion_control.c:810:6:mc_dwell	2
+../grbl/motion_control.c:562:6:mc_canned_drill	20
+../grbl/motion_control.c:971:12:mc_probe_cycle	20
+../grbl/motion_control.c:1083:6:mc_parking_motion	3
+../grbl/motion_control.c:1101:6:mc_override_ctrl_update	2
+../grbl/motion_control.c:1114:15:mc_reset	10
+../grbl/motion_control.c:821:15:mc_homing_cycle	27

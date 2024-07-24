@@ -1,0 +1,37 @@
+../Drivers/CMSIS/Include/cmsis_gcc.h:129:27:__enable_irq	0	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/cmsis_gcc.h:140:27:__disable_irq	0	static,ignoring_inline_asm
+C:/Users/ltd/Documents/STM32/GRBL Driver STM32F401/grbl/motor_pins.h:1270:13:motor_iterator	16	static
+C:/Users/ltd/Documents/STM32/GRBL Driver STM32F401/grbl/pin_bits_masks.h:279:27:aux_ctrl_remap_explicit	12	static
+../Src/driver.c:582:13:stepperEnable	0	static
+../Src/driver.c:615:13:stepperWakeUp	8	static
+../Src/driver.c:626:13:stepperGoIdle	0	static
+../Src/driver.c:633:13:stepperCyclesPerTick	0	static
+../Src/driver.c:863:13:stepperPulseStart	0	static
+../Src/driver.c:886:13:stepperPulseStartDelayed	0	static
+../Src/driver.c:1135:31:limitsGetState	8	static
+../Src/driver.c:1281:26:systemGetState	0	static
+../Src/driver.c:1601:13:coolantSetState	0	static
+../Src/driver.c:1611:24:coolantGetState	0	static
+../Src/driver.c:1654:13:bitsSetAtomic	0	static,ignoring_inline_asm
+../Src/driver.c:1661:22:bitsClearAtomic	0	static,ignoring_inline_asm
+../Src/driver.c:1671:22:valueSetAtomic	0	static,ignoring_inline_asm
+../Src/driver.c:1681:17:getElapsedMicros	4	static,ignoring_inline_asm
+../Src/driver.c:1698:17:getElapsedTicks	0	static
+../Src/driver.c:2038:14:port2char	0	static
+../Src/driver.c:2047:13:enumeratePins	32	static
+../Src/driver.c:2116:6:setPeriphPinDescription	4	static
+../Src/driver.c:1722:6:settings_changed	48	static
+../Src/driver.c:2096:6:registerPeriphPin	8	static
+../Src/driver.c:2336:13:driver_setup	72	static
+../Src/driver.c:567:13:driver_delay	8	static
+../Src/driver.c:2587:17:get_free_mem	48	static
+../Src/driver.c:3054:6:core_pin_debounce	24	static
+../Src/driver.c:3077:20:core_pin_irq	8	static
+../Src/driver.c:1703:6:gpio_irq_enable	4	static
+../Src/driver.c:1108:13:limitsEnable	32	static
+../Src/driver.c:2640:6:driver_init	72	static
+../Src/driver.c:2959:6:TIM5_IRQHandler	8	static
+../Src/driver.c:2985:6:TIM4_IRQHandler	0	static
+../Src/driver.c:3089:6:aux_pin_debounce	8	static
+../Src/driver.c:3331:6:EXTI15_10_IRQHandler	8	static
+../Src/driver.c:3376:6:Driver_IncTick	8	static

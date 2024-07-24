@@ -1,0 +1,17 @@
+../grbl/grbllib.c:97:6:dummy_bool_handler	0	static
+../grbl/grbllib.c:109:13:dummy_irq_claim	0	static
+../grbl/grbllib.c:143:32:get_homing_status	16	static
+../grbl/grbllib.c:397:20:task_free	0	static
+../grbl/grbllib.c:404:13:task_execute	16	static
+../grbl/grbllib.c:102:6:reset_handler	8	static
+../grbl/grbllib.c:155:32:get_homing_status2	24	static
+../grbl/grbllib.c:114:13:report_driver_error	48	static
+../grbl/grbllib.c:381:28:task_alloc	8	static
+../grbl/grbllib.c:446:15:task_add_delayed	24	static
+../grbl/grbllib.c:168:5:grbl_enter	40	static
+../grbl/grbllib.c:133:13:auto_realtime_report	8	static
+../grbl/grbllib.c:128:13:realtime_report_check	0	static
+../grbl/grbllib.c:482:6:task_delete	12	static
+../grbl/grbllib.c:499:15:task_add_systick	24	static
+../grbl/grbllib.c:526:6:task_delete_systick	12	static
+../grbl/grbllib.c:548:15:task_add_immediate	24	static

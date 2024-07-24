@@ -33,7 +33,7 @@
 #define BOARD_URL "https://github.com/bigtreetech/SKR-2"
 #define HAS_BOARD_INIT
 
-#define SERIAL_PORT     1   // GPIOA: TX = 9, RX = 10
+#define SERIAL_PORT     2   // GPIOA: TX = 2, RX = 3
 #define SERIAL1_PORT   32   // GPIOD: TX = 8, RX = 9
 #define I2C_PORT        1   // GPIOB: SCL = 8, SDA = 9
 #if ETHERNET_ENABLE

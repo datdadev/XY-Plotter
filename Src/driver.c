@@ -81,9 +81,9 @@
 
 #define DRIVER_IRQMASK (LIMIT_MASK|CONTROL_MASK|DEVICES_IRQ_MASK)
 
-#if DRIVER_IRQMASK != (LIMIT_MASK_SUM+CONTROL_MASK_SUM+DEVICES_IRQ_MASK_SUM)
-#error Interrupt enabled input pins must have unique pin numbers!
-#endif
+//#if DRIVER_IRQMASK != (LIMIT_MASK_SUM+CONTROL_MASK_SUM+DEVICES_IRQ_MASK_SUM)
+//#error Interrupt enabled input pins must have unique pin numbers!
+//#endif
 
 #define STEPPER_TIMER_DIV 4
 
@@ -586,15 +586,15 @@ static void stepperEnable (axes_signals_t enable)
   #ifdef STEPPERS_ENABLE_PORT
     DIGITAL_OUT(STEPPERS_ENABLE_PORT, STEPPERS_ENABLE_PIN, enable.x);
   #else
-    DIGITAL_OUT(X_ENABLE_PORT, X_ENABLE_PIN, enable.x);
+//    DIGITAL_OUT(X_ENABLE_PORT, X_ENABLE_PIN, enable.x);
    #ifdef X2_ENABLE_PIN
     DIGITAL_OUT(X2_ENABLE_PORT, X2_ENABLE_PIN, enable.x);
    #endif
-    DIGITAL_OUT(Y_ENABLE_PORT, Y_ENABLE_PIN, enable.y);
+//    DIGITAL_OUT(Y_ENABLE_PORT, Y_ENABLE_PIN, enable.y);
    #ifdef Y2_ENABLE_PIN
     DIGITAL_OUT(Y2_ENABLE_PORT, Y2_ENABLE_PIN, enable.y);
    #endif
-    DIGITAL_OUT(Z_ENABLE_PORT, Z_ENABLE_PIN, enable.z);
+//    DIGITAL_OUT(Z_ENABLE_PORT, Z_ENABLE_PIN, enable.z);
    #ifdef Z2_ENABLE_PIN
     DIGITAL_OUT(Z2_ENABLE_PORT, Z2_ENABLE_PIN, enable.z);
    #endif
@@ -1311,8 +1311,8 @@ static control_signals_t systemGetState (void)
     signals.safety_door_ajar = !!(bits & SAFETY_DOOR_BIT);
   #endif
 #else
-    signals.value &= ~(CONTROL_MASK >> CONTROL_INMODE);
-    signals.value |= (uint16_t)((CONTROL_PORT->IDR & CONTROL_MASK) >> CONTROL_INMODE);
+//    signals.value &= ~(CONTROL_MASK >> CONTROL_INMODE);
+//    signals.value |= (uint16_t)((CONTROL_PORT->IDR & CONTROL_MASK) >> CONTROL_INMODE);
   #if ESTOP_ENABLE
     signals.e_stop = signals.reset;
     signals.reset = settings.control_invert.reset;

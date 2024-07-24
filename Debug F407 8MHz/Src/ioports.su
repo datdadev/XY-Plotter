@@ -1,0 +1,13 @@
+../Src/ioports.c:59:13:digital_out	0	static
+../Src/ioports.c:67:14:digital_out_state	0	static
+../Src/ioports.c:94:14:digital_in_state	0	static
+../Src/ioports.c:206:16:get_pin_info	12	static
+../Src/ioports.c:228:13:set_pin_description	4	static
+../Src/ioports.c:36:13:digital_out_cfg	16	static
+../Src/ioports.c:77:13:digital_in_cfg	16	static
+../Src/ioports.c:288:13:swap_pins	72	static
+../Src/ioports.c:238:13:claim	24	static
+../Src/ioports.c:178:13:register_interrupt_handler	16	static
+../Src/ioports.c:157:16:wait_on_input	16	static
+../Src/ioports.c:169:6:ioports_event	8	static
+../Src/ioports.c:322:6:ioports_init	8	static

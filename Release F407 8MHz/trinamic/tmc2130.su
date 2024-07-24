@@ -1,0 +1,16 @@
+../trinamic/tmc2130.c:158:13:_set_rms_current	0	static
+../trinamic/tmc2130.c:153:30:TMC2130_GetConfigDefaults	0	static
+../trinamic/tmc2130.c:172:6:TMC2130_SetDefaults	8	static
+../trinamic/tmc2130.c:208:10:TMC2130_GetCurrent	0	static
+../trinamic/tmc2130.c:214:6:TMC2130_SetCurrent	8	static
+../trinamic/tmc2130.c:181:6:TMC2130_Init	16	static
+../trinamic/tmc2130.c:225:7:TMC2130_GetTPWMTHRS	0	static
+../trinamic/tmc2130.c:230:6:TMC2130_SetTPWMTHRS	8	static
+../trinamic/tmc2130.c:236:6:TMC2130_SetTHIGH	8	static
+../trinamic/tmc2130.c:242:6:TMC2130_SetTCOOLTHRS	8	static
+../trinamic/tmc2130.c:249:6:TMC2130_MicrostepsIsValid	0	static
+../trinamic/tmc2130.c:254:6:TMC2130_SetMicrosteps	8	static
+../trinamic/tmc2130.c:262:6:TMC2130_SetConstantOffTimeChopper	16	static
+../trinamic/tmc2130.c:289:18:TMC2130_WriteRegister	8	static
+../trinamic/tmc2130.c:298:18:TMC2130_ReadRegister	8	static
+../trinamic/tmc2130.c:308:21:TMC2130_GetRegPtr	0	static

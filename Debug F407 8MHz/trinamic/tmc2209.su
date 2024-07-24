@@ -1,0 +1,17 @@
+../trinamic/tmc2209.c:137:13:_set_rms_current	8	static
+../trinamic/tmc2209.c:276:13:calcCRC	12	static
+../trinamic/tmc2209.c:294:13:byteswap	0	static
+../trinamic/tmc2209.c:153:30:TMC2209_GetConfigDefaults	0	static
+../trinamic/tmc2209.c:158:6:TMC2209_SetDefaults	8	static
+../trinamic/tmc2209.c:204:10:TMC2209_GetCurrent	0	static
+../trinamic/tmc2209.c:221:7:TMC2209_GetTPWMTHRS	8	static
+../trinamic/tmc2209.c:239:6:TMC2209_MicrostepsIsValid	8	static
+../trinamic/tmc2209.c:306:6:TMC2209_WriteRegister	16	static
+../trinamic/tmc2209.c:210:6:TMC2209_SetCurrent	8	static
+../trinamic/tmc2209.c:226:6:TMC2209_SetTPWMTHRS	8	static
+../trinamic/tmc2209.c:232:6:TMC2209_SetTCOOLTHRS	8	static
+../trinamic/tmc2209.c:244:6:TMC2209_SetMicrosteps	8	static
+../trinamic/tmc2209.c:252:6:TMC2209_SetConstantOffTimeChopper	8	static
+../trinamic/tmc2209.c:327:6:TMC2209_ReadRegister	24	static
+../trinamic/tmc2209.c:167:6:TMC2209_Init	16	static
+../trinamic/tmc2209.c:354:21:TMC2209_GetRegPtr	0	static

@@ -1,0 +1,13 @@
+../grbl/protocol.c:433:13:protocol_poll_cmd	13
+../grbl/protocol.c:1068:13:protocol_execute_rt_commands.constprop	5
+../grbl/protocol.c:89:13:protocol_on_execute_delay	2
+../grbl/protocol.c:74:6:protocol_enqueue_gcode	8
+../grbl/protocol.c:396:6:protocol_auto_cycle_start	2
+../grbl/protocol.c:458:6:protocol_exec_rt_system	79
+../grbl/protocol.c:415:6:protocol_execute_realtime	15
+../grbl/protocol.c:143:6:protocol_main_loop	74
+../grbl/protocol.c:375:6:protocol_buffer_synchronize	4
+../grbl/protocol.c:1042:15:protocol_enqueue_foreground_task	2
+../grbl/protocol.c:826:15:protocol_enqueue_realtime_command	56
+../grbl/protocol.c:1062:15:protocol_enqueue_rt_command	1
+../grbl/protocol.c:1090:6:protocol_execute_noop	1
