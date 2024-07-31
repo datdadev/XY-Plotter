@@ -34,4 +34,4 @@
 ../grbl/stream.c:428:6:stream_connect_instance	8	static
 ../grbl/stream.c:437:6:stream_disconnect	8	static
 ../grbl/stream.c:460:6:stream_mpg_set_mode	8	static
-../grbl/stream.c:721:6:debug_printf	112	static
+../grbl/stream.c:753:6:debug_printf	112	static

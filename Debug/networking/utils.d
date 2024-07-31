@@ -1,17 +1,16 @@
 networking/utils.o: ../networking/utils.c \
- C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/plugins.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/nvs.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/nuts_bolts.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/grbl.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/config.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/nuts_bolts.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/errors.h \
- ../networking/utils.h
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/plugins.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/nvs.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/nuts_bolts.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/grbl.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/config.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/nuts_bolts.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/errors.h:
+ D:/LTD/STM/new/XY-Plotter/grbl/plugins.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/nvs.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/nuts_bolts.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/grbl.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/config.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/nuts_bolts.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/errors.h ../networking/utils.h
+D:/LTD/STM/new/XY-Plotter/grbl/plugins.h:
+D:/LTD/STM/new/XY-Plotter/grbl/nvs.h:
+D:/LTD/STM/new/XY-Plotter/grbl/nuts_bolts.h:
+D:/LTD/STM/new/XY-Plotter/grbl/grbl.h:
+D:/LTD/STM/new/XY-Plotter/grbl/config.h:
+D:/LTD/STM/new/XY-Plotter/grbl/nuts_bolts.h:
+D:/LTD/STM/new/XY-Plotter/grbl/errors.h:
 ../networking/utils.h:

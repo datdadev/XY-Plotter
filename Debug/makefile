@@ -103,8 +103,8 @@ all: main-build
 main-build: XY-Plotter.elf secondary-outputs
 
 # Tool invocations
-XY-Plotter.elf XY-Plotter.map: $(OBJS) $(USER_OBJS) C:\Users\ltd\Documents\STM32\XY-Plotter\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "XY-Plotter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ltd\Documents\STM32\XY-Plotter\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="XY-Plotter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+XY-Plotter.elf XY-Plotter.map: $(OBJS) $(USER_OBJS) D:\LTD\STM\new\XY-Plotter\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "XY-Plotter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\LTD\STM\new\XY-Plotter\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="XY-Plotter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

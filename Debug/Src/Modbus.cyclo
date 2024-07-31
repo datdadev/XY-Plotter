@@ -1,0 +1,10 @@
+../Src/Modbus.c:58:10:crc16	2
+../Src/Modbus.c:74:6:sendData	1
+../Src/Modbus.c:84:6:modbusException	1
+../Src/Modbus.c:95:9:readHoldingRegs	4
+../Src/Modbus.c:132:9:readCoils	7
+../Src/Modbus.c:184:9:readInputRegs	4
+../Src/Modbus.c:221:9:writeSingleCoil	6
+../Src/Modbus.c:264:9:writeSingleReg	2
+../Src/Modbus.c:288:9:writeMultiCoils	7
+../Src/Modbus.c:352:9:writeHoldingRegs	4

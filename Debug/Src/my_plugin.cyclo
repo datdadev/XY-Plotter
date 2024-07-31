@@ -1,0 +1,8 @@
+../Src/my_plugin.c:129:16:get_macro_char	2
+../Src/my_plugin.c:158:13:on_report_my_options	3
+../Src/my_plugin.c:98:13:send_gcode_sequence	4
+../Src/my_plugin.c:138:13:check_register_and_execute_gcode	4
+../Src/my_plugin.c:64:6:HAL_UART_RxCpltCallback	10
+../Src/my_plugin.c:204:6:MX_GPIO_Init	1
+../Src/my_plugin.c:184:6:MX_USART2_UART_Init	2
+../Src/my_plugin.c:168:6:my_plugin_init	1

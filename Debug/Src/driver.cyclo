@@ -1,7 +1,7 @@
 ../Drivers/CMSIS/Include/cmsis_gcc.h:129:27:__enable_irq	1
 ../Drivers/CMSIS/Include/cmsis_gcc.h:140:27:__disable_irq	1
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/motor_pins.h:1270:13:motor_iterator	3
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/pin_bits_masks.h:279:27:aux_ctrl_remap_explicit	5
+D:/LTD/STM/new/XY-Plotter/grbl/motor_pins.h:1270:13:motor_iterator	3
+D:/LTD/STM/new/XY-Plotter/grbl/pin_bits_masks.h:279:27:aux_ctrl_remap_explicit	5
 ../Src/driver.c:582:13:stepperEnable	1
 ../Src/driver.c:615:13:stepperWakeUp	1
 ../Src/driver.c:626:13:stepperGoIdle	1

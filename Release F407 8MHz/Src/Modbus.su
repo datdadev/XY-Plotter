@@ -1,0 +1,10 @@
+../Src/Modbus.c:58:10:crc16	16	static
+../Src/Modbus.c:74:6:sendData	16	static
+../Src/Modbus.c:84:6:modbusException	0	static
+../Src/Modbus.c:95:9:readHoldingRegs	24	static
+../Src/Modbus.c:132:9:readCoils	24	static
+../Src/Modbus.c:184:9:readInputRegs	24	static
+../Src/Modbus.c:221:9:writeSingleCoil	24	static
+../Src/Modbus.c:264:9:writeSingleReg	24	static
+../Src/Modbus.c:288:9:writeMultiCoils	48	static
+../Src/Modbus.c:352:9:writeHoldingRegs	32	static

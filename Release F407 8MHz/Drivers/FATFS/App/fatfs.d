@@ -1,12 +1,11 @@
 Drivers/FATFS/App/fatfs.o: ../Drivers/FATFS/App/fatfs.c \
- ../Drivers/FATFS/App/fatfs.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/ff.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/ffconf.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/STM/ff_gen_drv.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/diskio.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/ff.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/Drivers/FATFS/Target/sd_diskio.h \
- C:/Users/ltd/Documents/STM32/XY-Plotter/Drivers/FATFS/Target/bsp_driver_sd.h \
+ ../Drivers/FATFS/App/fatfs.h D:/LTD/STM/new/XY-Plotter/FatFs/ff.h \
+ D:/LTD/STM/new/XY-Plotter/FatFs/ffconf.h \
+ D:/LTD/STM/new/XY-Plotter/FatFs/STM/ff_gen_drv.h \
+ D:/LTD/STM/new/XY-Plotter/FatFs/diskio.h \
+ D:/LTD/STM/new/XY-Plotter/FatFs/ff.h \
+ D:/LTD/STM/new/XY-Plotter/Drivers/FATFS/Target/sd_diskio.h \
+ D:/LTD/STM/new/XY-Plotter/Drivers/FATFS/Target/bsp_driver_sd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -54,13 +53,13 @@ Drivers/FATFS/App/fatfs.o: ../Drivers/FATFS/App/fatfs.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 ../Drivers/FATFS/App/fatfs.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/ff.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/ffconf.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/STM/ff_gen_drv.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/diskio.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs/ff.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/Drivers/FATFS/Target/sd_diskio.h:
-C:/Users/ltd/Documents/STM32/XY-Plotter/Drivers/FATFS/Target/bsp_driver_sd.h:
+D:/LTD/STM/new/XY-Plotter/FatFs/ff.h:
+D:/LTD/STM/new/XY-Plotter/FatFs/ffconf.h:
+D:/LTD/STM/new/XY-Plotter/FatFs/STM/ff_gen_drv.h:
+D:/LTD/STM/new/XY-Plotter/FatFs/diskio.h:
+D:/LTD/STM/new/XY-Plotter/FatFs/ff.h:
+D:/LTD/STM/new/XY-Plotter/Drivers/FATFS/Target/sd_diskio.h:
+D:/LTD/STM/new/XY-Plotter/Drivers/FATFS/Target/bsp_driver_sd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Inc/stm32f4xx_hal_conf.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:

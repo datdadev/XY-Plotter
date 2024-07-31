@@ -16,7 +16,7 @@ S_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 StartupF407/%.o: ../StartupF407/%.s StartupF407/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m4 -c -I"C:/Users/ltd/Documents/STM32/XY-Plotter/FatFs" -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I"C:/Users/ltd/Documents/STM32/XY-Plotter/Inc" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -c -I"D:/LTD/STM/new/XY-Plotter/FatFs" -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I"D:/LTD/STM/new/XY-Plotter/Inc" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 
 clean: clean-StartupF407
 

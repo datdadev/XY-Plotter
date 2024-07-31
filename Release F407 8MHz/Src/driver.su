@@ -20,7 +20,7 @@
 ../Src/driver.c:2096:6:registerPeriphPin	16	static
 ../Src/driver.c:2587:17:get_free_mem	48	static
 ../Src/driver.c:3054:6:core_pin_debounce	24	static
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/motor_pins.h:1270:13:motor_iterator	16	static
+D:/LTD/STM/new/XY-Plotter/grbl/motor_pins.h:1270:13:motor_iterator	16	static
 ../Src/driver.c:886:13:stepperPulseStartDelayed	0	static
 ../Src/driver.c:1722:6:settings_changed	64	static
 ../Src/driver.c:567:13:driver_delay	16	static

@@ -1,7 +1,7 @@
 ../Drivers/CMSIS/Include/cmsis_gcc.h:129:27:__enable_irq	0	static,ignoring_inline_asm
 ../Drivers/CMSIS/Include/cmsis_gcc.h:140:27:__disable_irq	0	static,ignoring_inline_asm
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/motor_pins.h:1270:13:motor_iterator	16	static
-C:/Users/ltd/Documents/STM32/XY-Plotter/grbl/pin_bits_masks.h:279:27:aux_ctrl_remap_explicit	12	static
+D:/LTD/STM/new/XY-Plotter/grbl/motor_pins.h:1270:13:motor_iterator	16	static
+D:/LTD/STM/new/XY-Plotter/grbl/pin_bits_masks.h:279:27:aux_ctrl_remap_explicit	12	static
 ../Src/driver.c:582:13:stepperEnable	0	static
 ../Src/driver.c:615:13:stepperWakeUp	8	static
 ../Src/driver.c:626:13:stepperGoIdle	0	static

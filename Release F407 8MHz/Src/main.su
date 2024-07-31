@@ -1,2 +1,4 @@
-../Src/main.c:32:5:main	128	static
-../Src/main.c:437:6:Error_Handler	0	static
+../Src/main.c:58:6:HAL_UARTEx_RxEventCallback	8	static
+../Src/main.c:145:6:SystemClock_Config	88	static,ignoring_inline_asm
+../Src/main.c:102:5:main	16	static,ignoring_inline_asm
+../Src/main.c:245:6:Error_Handler	0	static,ignoring_inline_asm
