@@ -1,8 +1,5 @@
-../Src/my_plugin.c:129:16:get_macro_char	0	static
-../Src/my_plugin.c:158:13:on_report_my_options	8	static
-../Src/my_plugin.c:98:13:send_gcode_sequence	16	static
-../Src/my_plugin.c:138:13:check_register_and_execute_gcode	8	static
-../Src/my_plugin.c:64:6:HAL_UART_RxCpltCallback	8	static
-../Src/my_plugin.c:204:6:MX_GPIO_Init	32	static
-../Src/my_plugin.c:184:6:MX_USART2_UART_Init	8	static
-../Src/my_plugin.c:168:6:my_plugin_init	8	static
+../Src/my_plugin.c:17:13:flush_input_buffer	8	static
+../Src/my_plugin.c:72:13:on_report_my_options	48	static
+../Src/my_plugin.c:26:13:poll_for_received_data	16	static
+../Src/my_plugin.c:63:13:check_register_and_execute_gcode	8	static
+../Src/my_plugin.c:84:6:my_plugin_init	0	static

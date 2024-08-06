@@ -73,7 +73,7 @@ Src/my_plugin.o: ../Src/my_plugin.c ../Inc/driver.h ../Inc/my_machine.h \
  D:/LTD/STM/new/XY-Plotter/grbl/stepper.h \
  D:/LTD/STM/new/XY-Plotter/grbl/ioports.h \
  D:/LTD/STM/new/XY-Plotter/grbl/rgb.h \
- D:/LTD/STM/new/XY-Plotter/boards/my_machine_map.h ../Inc/Modbus.h
+ D:/LTD/STM/new/XY-Plotter/boards/my_machine_map.h
 ../Inc/driver.h:
 ../Inc/my_machine.h:
 ../Inc/main.h:
@@ -153,4 +153,3 @@ D:/LTD/STM/new/XY-Plotter/grbl/stepper.h:
 D:/LTD/STM/new/XY-Plotter/grbl/ioports.h:
 D:/LTD/STM/new/XY-Plotter/grbl/rgb.h:
 D:/LTD/STM/new/XY-Plotter/boards/my_machine_map.h:
-../Inc/Modbus.h:

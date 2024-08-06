@@ -1,0 +1,3 @@
+../Src/my_plugin.c:106:13:check_register_and_execute_gcode	14
+../Src/my_plugin.c:115:13:on_report_my_options	4
+../Src/my_plugin.c:127:6:my_plugin_init	1

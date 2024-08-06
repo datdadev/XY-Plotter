@@ -45,7 +45,37 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
- ../Inc/Modbus.h
+ ../Inc/driver.h ../Inc/my_machine.h ../Inc/main.h ../Inc/pwm.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/driver_opts.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/hal.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/grbl.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/config.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/nuts_bolts.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/errors.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/core_handlers.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/system.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/gcode.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/coolant_control.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/spindle_control.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/pid.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/probe.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/alarms.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/messages.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/stream.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/vfs.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/settings.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/plugins.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/nvs.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/report.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/ngc_params.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/planner.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/machine_limits.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/crossbar.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/stepper.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/ioports.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/rgb.h \
+ D:/LTD/STM/new/XY-Plotter/boards/my_machine_map.h \
+ D:/LTD/STM/new/XY-Plotter/grbl/grbllib.h
 ../Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Inc/stm32f4xx_hal_conf.h:
@@ -93,4 +123,37 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
-../Inc/Modbus.h:
+../Inc/driver.h:
+../Inc/my_machine.h:
+../Inc/main.h:
+../Inc/pwm.h:
+D:/LTD/STM/new/XY-Plotter/grbl/driver_opts.h:
+D:/LTD/STM/new/XY-Plotter/grbl/hal.h:
+D:/LTD/STM/new/XY-Plotter/grbl/grbl.h:
+D:/LTD/STM/new/XY-Plotter/grbl/config.h:
+D:/LTD/STM/new/XY-Plotter/grbl/nuts_bolts.h:
+D:/LTD/STM/new/XY-Plotter/grbl/errors.h:
+D:/LTD/STM/new/XY-Plotter/grbl/core_handlers.h:
+D:/LTD/STM/new/XY-Plotter/grbl/system.h:
+D:/LTD/STM/new/XY-Plotter/grbl/gcode.h:
+D:/LTD/STM/new/XY-Plotter/grbl/coolant_control.h:
+D:/LTD/STM/new/XY-Plotter/grbl/spindle_control.h:
+D:/LTD/STM/new/XY-Plotter/grbl/pid.h:
+D:/LTD/STM/new/XY-Plotter/grbl/probe.h:
+D:/LTD/STM/new/XY-Plotter/grbl/alarms.h:
+D:/LTD/STM/new/XY-Plotter/grbl/messages.h:
+D:/LTD/STM/new/XY-Plotter/grbl/stream.h:
+D:/LTD/STM/new/XY-Plotter/grbl/vfs.h:
+D:/LTD/STM/new/XY-Plotter/grbl/settings.h:
+D:/LTD/STM/new/XY-Plotter/grbl/plugins.h:
+D:/LTD/STM/new/XY-Plotter/grbl/nvs.h:
+D:/LTD/STM/new/XY-Plotter/grbl/report.h:
+D:/LTD/STM/new/XY-Plotter/grbl/ngc_params.h:
+D:/LTD/STM/new/XY-Plotter/grbl/planner.h:
+D:/LTD/STM/new/XY-Plotter/grbl/machine_limits.h:
+D:/LTD/STM/new/XY-Plotter/grbl/crossbar.h:
+D:/LTD/STM/new/XY-Plotter/grbl/stepper.h:
+D:/LTD/STM/new/XY-Plotter/grbl/ioports.h:
+D:/LTD/STM/new/XY-Plotter/grbl/rgb.h:
+D:/LTD/STM/new/XY-Plotter/boards/my_machine_map.h:
+D:/LTD/STM/new/XY-Plotter/grbl/grbllib.h:
