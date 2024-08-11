@@ -1,8 +1,8 @@
 #define BOARD_NAME "MY MACHINE"
 //#define HAS_BOARD_INIT
 
-#define SERIAL_PORT     2   // GPIOA: TX = 2, RX = 3
-//#define SERIAL1_PORT    2   // GPIOA: TX = 2, RX = 3
+#define SERIAL_PORT     1   // GPIOA: TX = 2, RX = 3
+#define SERIAL1_PORT    2   // GPIOA: TX = 2, RX = 3
 
 // Define step pulse output pins.
 #define X_STEP_PORT                 GPIOD

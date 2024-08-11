@@ -1,5 +1,7 @@
-../Src/my_plugin.c:17:13:flush_input_buffer	2
-../Src/my_plugin.c:72:13:on_report_my_options	3
-../Src/my_plugin.c:26:13:poll_for_received_data	6
-../Src/my_plugin.c:63:13:check_register_and_execute_gcode	1
-../Src/my_plugin.c:84:6:my_plugin_init	1
+../Src/my_plugin.c:63:16:send_gcode	5
+../Src/my_plugin.c:115:13:status_checker	7
+../Src/my_plugin.c:156:13:on_report_my_options	3
+../Src/my_plugin.c:38:13:modbus_process	6
+../Src/my_plugin.c:88:13:poll_for_received_data	5
+../Src/my_plugin.c:149:13:check_register_and_execute_gcode	1
+../Src/my_plugin.c:167:6:my_plugin_init	2

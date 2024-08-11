@@ -8,6 +8,9 @@
 #include "Modbus.h"
 #include "string.h"
 #include "stdint.h"
+
+#include "driver.h"
+
 volatile uint16_t Holding_Registers_Database[50]={};
 volatile uint8_t Coils_Database[25]={};
 uint16_t Input_Registers_Database[50];
@@ -78,7 +81,22 @@ void sendData (uint8_t *data, int size)
   data[size] = crc&0xFF;   // CRC LOW
   data[size+1] = (crc>>8)&0xFF;  // CRC HIGH
 
-  HAL_UART_Transmit(&huart2, data, size+2, 1000);
+// HAL_UART_Transmit(&huart2, data, size+2, 1000);
+
+  uint8_t *buff = (uint8_t *)malloc(size + 2);
+  if (buff == NULL) {
+	  // Handle memory allocation failure
+	  return;
+  }
+
+  // Copy data to buffer
+  memcpy(buff, data, size+2);
+
+  // Send the buffer
+  hal.stream.write_n(buff, size + 2);
+
+  // Free the allocated buffer
+  free(buff);
 }
 
 void modbusException (uint8_t exceptioncode)

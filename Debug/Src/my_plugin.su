@@ -1,5 +1,7 @@
-../Src/my_plugin.c:17:13:flush_input_buffer	8	static
-../Src/my_plugin.c:72:13:on_report_my_options	48	static
-../Src/my_plugin.c:26:13:poll_for_received_data	16	static
-../Src/my_plugin.c:63:13:check_register_and_execute_gcode	8	static
-../Src/my_plugin.c:84:6:my_plugin_init	0	static
+../Src/my_plugin.c:63:16:send_gcode	0	static
+../Src/my_plugin.c:115:13:status_checker	8	static
+../Src/my_plugin.c:156:13:on_report_my_options	48	static
+../Src/my_plugin.c:38:13:modbus_process	8	static
+../Src/my_plugin.c:88:13:poll_for_received_data	8	static
+../Src/my_plugin.c:149:13:check_register_and_execute_gcode	8	static
+../Src/my_plugin.c:167:6:my_plugin_init	8	static
